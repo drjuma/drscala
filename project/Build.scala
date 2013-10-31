@@ -7,7 +7,7 @@ object DrScala extends Build {
   lazy val sharedSettings = Defaults.defaultSettings ++ publishSettings ++ Seq(
     scalaVersion := "2.10.3",
     organization := "com.timeout",
-    version := "0.1.0-SNAPSHOT",
+    version := "0.1.10",
     description := "A doctor for your code"
   )
 
